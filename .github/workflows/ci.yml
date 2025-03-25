@@ -1,4 +1,4 @@
-# This workflow will build a Java project with Gradle
+rets# This workflow will build a Java project with Gradle
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
 name: Java CI with Gradle
@@ -33,6 +33,6 @@ jobs:
       with:
         image: nanajanashia/demo-app
         registry: docker.io
-        username: ${{ mounikabiraggari }}
-        password: ${{ Mounika@123 }}
+        username: ${{ Secrets.mounikabiraggari }}
+        password: ${{ Secrets.Mounika@123 }}
          
